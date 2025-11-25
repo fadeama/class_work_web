@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function () {
+    // your JS here
+});
+
 let userobj =
 {
     username: "fadi",
