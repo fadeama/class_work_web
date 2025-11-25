@@ -4,4 +4,8 @@ let song1 = {
     "duration": 210,
     "genres": ["pop"],
 }
-let song2 = Object.assign(song1)
+let song2 = Object.assign({}, song1);
+let { title, duration } = song2;
+for (let key in song1) {
+    console.log(`${key} : ${song1[key]}`);
+}
